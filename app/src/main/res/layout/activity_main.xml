@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <com.zhangqi.percentagecircle.PercentageRing
+        android:id="@+id/Circle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:circleBackground="#CE577B"
+        app:ringColor="#FF577B"
+        app:radius="90"
+        app:textColor="#ffffffff"
+        />
+
+</RelativeLayout>
